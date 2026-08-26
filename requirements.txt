@@ -1,9 +1,9 @@
 # Entorno de desarrollo - Python 3.10.19
 
-torch
+scikit-learn
 torchvision
 matplotlib
-numpy
 imageio
 Pillow
-scikit-learn
+numpy
+torch
