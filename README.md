@@ -19,7 +19,11 @@ Para estabilizar el entrenamiento y evitar el colapso del modelo, se implementar
 
 ## 🖼️ Resultados
 
+**Ejemplo de imagen generada por clase**
+
 ![Imágenes generadas por clase](generated_by_class.png)
+
+**Pérdidas del generador y del discriminador en gráfica:** Podemos observar una estabilidad notable. Observamos que las pérdidas el discriminador, descendienden muy suavemente sin colapso. Por otro lado, la pérdida del generador se mantiene estable de forma contraria. Ambas pérdidas se mantienen cercanas a 1, lo cual nos da pistas que nos encontramos frente a una GAN equilibrada.
 
 ![Evolución de las pérdidas](training_losses.png)
 
