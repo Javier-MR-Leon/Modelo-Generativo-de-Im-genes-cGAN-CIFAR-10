@@ -1,0 +1,9 @@
+# Entorno de desarrollo - Python 3.10.19
+
+torch
+torchvision
+matplotlib
+numpy
+imageio
+Pillow
+scikit-learn
