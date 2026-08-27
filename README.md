@@ -40,8 +40,8 @@ Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10/
 
 ### 1. Clonar el repositorio:
 ```bash
-git clone [https://github.com/TU_USUARIO/cifar10-conditional-gan.git]        (https://github.com/TU_USUARIO/cifar10-conditional-gan.git)
-cd cifar10-conditional-gan
+git clone [https://github.com/TU_USUARIO/Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10.git](https://github.com/TU_USUARIO/Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10.git)
+cd Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10
 ```
 
 ### 2. Entorno de Python
