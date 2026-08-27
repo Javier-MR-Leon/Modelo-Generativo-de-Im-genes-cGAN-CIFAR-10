@@ -36,13 +36,33 @@ Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10/
 └── README.md
 ```
 
-### 1. Entorno de Python
+## Instalación y Configuración
+
+### 1. Clonar el repositorio:
+    ```bash
+    git clone [https://github.com/TU_USUARIO/cifar10-conditional-gan.git]        (https://github.com/TU_USUARIO/cifar10-conditional-gan.git)
+    cd cifar10-conditional-gan
+    ```
+
+### 2. Entorno de Python
 Se recomienda el uso de un entorno virtual (**Conda**) para garantizar la compatibilidad de las librerías.
 * **Versión recomendada:** Python 3.10.19
 * **Instalación de dependencias:**
     ```bash
     pip install -r requirements.txt
     ```
+## Uso
+### Para entrenar el modelo desde cero:
+    ```bash
+    python train.py
+    ```
+El dataset se descargará automáticamente en data/ y, al finalizar, los pesos se guardarán en generator_weights.pth.
+
+### Para generar imágenes con el modelo entrenado:
+    ```bash
+    python generate.py
+    ```
+Se generará una cuadrícula con una muestra de las 10 clases guardada como generated_by_class.png.
 
 ## Resultados
 
@@ -54,9 +74,3 @@ Se recomienda el uso de un entorno virtual (**Conda**) para garantizar la compat
 
 ![Evolución de las pérdidas](training_losses.png)
 
-## ⚙️ Instalación y Configuración
-
-1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/TU_USUARIO/cifar10-conditional-gan.git](https://github.com/TU_USUARIO/cifar10-conditional-gan.git)
-   cd cifar10-conditional-gan
