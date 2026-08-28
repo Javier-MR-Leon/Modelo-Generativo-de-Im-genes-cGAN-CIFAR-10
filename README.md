@@ -40,7 +40,7 @@ Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10/
 
 ### 1. Clonar el repositorio:
 ```bash
-git clone [https://github.com/TU_USUARIO/Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10.git](https://github.com/TU_USUARIO/Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10.git)
+git clone [https://github.com/Javier-MR-Leon/Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10.git](https://github.com/Javier-MR-Leon/Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10.git)
 cd Modelo-Generativo-de-Im-genes-cGAN-CIFAR-10
 ```
 
